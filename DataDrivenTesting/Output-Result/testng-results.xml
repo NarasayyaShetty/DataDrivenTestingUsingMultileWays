@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-11T21:07:41 IST" name="data driven with multiple ways" finished-at="2025-04-11T21:07:55 IST" duration-ms="13479">
+    <groups>
+    </groups>
+    <test started-at="2025-04-11T21:07:41 IST" name="data driven chrome " finished-at="2025-04-11T21:07:55 IST" duration-ms="13479">
+      <class name="Tests.TestCase01">
+        <test-method is-config="true" signature="browserinit(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase01@2205a05d]" started-at="2025-04-11T21:07:41 IST" name="browserinit" description="initilization the browser" finished-at="2025-04-11T21:07:43 IST" duration-ms="1910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://crio-qkart-frontend-qa.vercel.app/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinit -->
+        <test-method signature="testCase01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase01@2205a05d]" started-at="2025-04-11T21:07:44 IST" name="testCase01" description="Verify the Register functionality" data-provider="testcase01" finished-at="2025-04-11T21:07:48 IST" duration-ms="3598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[59f5034a-e3cd-4e90-9dae-7d39bcee9b66]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method signature="testCase01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase01@2205a05d]" started-at="2025-04-11T21:07:48 IST" name="testCase01" description="Verify the Register functionality" data-provider="testcase01" finished-at="2025-04-11T21:07:51 IST" duration-ms="3630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6c1fb46e-b7f3-4204-b850-7b929ee7f288]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method signature="testCase01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.TestCase01@2205a05d]" started-at="2025-04-11T21:07:51 IST" name="testCase01" description="Verify the Register functionality" data-provider="testcase01" finished-at="2025-04-11T21:07:55 IST" duration-ms="3722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b9d8114b-8fa1-4d9f-b285-c844e91f02a8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+      </class> <!-- Tests.TestCase01 -->
+    </test> <!-- data driven chrome  -->
+  </suite> <!-- data driven with multiple ways -->
+</testng-results>
